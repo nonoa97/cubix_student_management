@@ -1,0 +1,29 @@
+<infinispan
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="urn:infinispan:config:15.2 https://infinispan.org/schemas/infinispan-config-15.2.xsd"
+        xmlns="urn:infinispan:config:15.2">
+
+
+    <cache-container name="SpringCacheManager">
+
+        <local-cache name="pagedCoursesWithRelationships" >
+            <transaction mode="NONE" />
+            <expiration max-idle="10000" interval="2000"/>
+            <memory max-count="10000"/>
+        </local-cache>
+
+        <local-cache name="studentSchedule" >
+            <transaction mode="NONE" />
+            <expiration max-idle="10000" interval="2000"/>
+            <memory max-count="10000"/>
+        </local-cache>
+
+        <local-cache name="teacherSchedule" >
+            <transaction mode="NONE" />
+            <expiration max-idle="10000" interval="2000"/>
+            <memory max-count="10000"/>
+        </local-cache>
+
+    </cache-container>
+
+</infinispan>
