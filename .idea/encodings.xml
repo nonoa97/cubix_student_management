@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/CentralEducationSystem/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FinanceService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JmsServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-management/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-management/target/generated-sources/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-management/target/generated-sources/openapi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-management/target/generated-sources/wsimport" charset="UTF-8" />
+  </component>
+</project>
